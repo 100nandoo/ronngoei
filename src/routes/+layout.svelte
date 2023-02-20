@@ -1,6 +1,6 @@
 <script>
 	import Footer from '$lib/components/Footer.svelte';
-	// import Header from '$lib/Header.svelte';
+	import Header from '$lib/components/Header.svelte';
 	// import HeaderMobile from '$lib/HeaderMobile.svelte';
 	import Sidebar from '$lib/components/Sidebar.svelte';
 	import { navigating } from '$app/stores';
@@ -9,7 +9,7 @@
 	import '../app.css';
 </script>
 
-<!-- <Header /> -->
+<Header />
 <!-- <HeaderMobile /> -->
 <div class="grid-cols-1 flex flex-col-reverse xl:flex-row lg:grid-cols-3 xl:mx-28">
 	<div class="basis-1/3">
