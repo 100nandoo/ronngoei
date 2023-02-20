@@ -20,6 +20,7 @@ specifiers:
   sharp: ^0.31.3
   svelte: ^3.55.1
   svelte-check: ^3.0.3
+  svelte-loading-spinners: ^0.3.4
   svelte-preprocess: ^5.0.1
   tailwindcss: ^3.2.7
   tslib: ^2.5.0
@@ -48,6 +49,7 @@ devDependencies:
   sharp: 0.31.3
   svelte: 3.55.1
   svelte-check: 3.0.3_pehl75e5jsy22vp33udjja4soi
+  svelte-loading-spinners: 0.3.4
   svelte-preprocess: 5.0.1_k4bhxdknaltjvjwprbm23edr5q
   tailwindcss: 3.2.7_postcss@8.4.21
   tslib: 2.5.0
@@ -2239,6 +2241,10 @@ packages:
       svelte: '>=3.19.0'
     dependencies:
       svelte: 3.55.1
+    dev: true
+
+  /svelte-loading-spinners/0.3.4:
+    resolution: {integrity: sha512-vKaW71QMCBcTNijAGc0mUl8k3DQ66iYmp6MB8BMGCXyWk82bTrcLy8FOnSm9fE+8q6TwzD6PLUoYFHt0II93Xw==}
     dev: true
 
   /svelte-preprocess/5.0.1_k4bhxdknaltjvjwprbm23edr5q:
