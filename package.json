@@ -39,6 +39,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.50.1"
+		"@fortawesome/free-brands-svg-icons": "^6.3.0",
+		"@fortawesome/free-regular-svg-icons": "^6.3.0",
+		"@fortawesome/free-solid-svg-icons": "^6.3.0",
+		"daisyui": "^2.50.1",
+		"svelte-fa": "^3.0.3"
 	}
 }

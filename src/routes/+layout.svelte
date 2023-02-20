@@ -2,7 +2,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	// import Header from '$lib/Header.svelte';
 	// import HeaderMobile from '$lib/HeaderMobile.svelte';
-	// import Sidebar from '$lib/Sidebar.svelte';
+	import Sidebar from '$lib/components/Sidebar.svelte';
 	import { navigating } from '$app/stores';
 	import { Pulse } from 'svelte-loading-spinners';
 	import Color, { primary } from '../lib/constants/Color.svelte';
@@ -13,7 +13,7 @@
 <!-- <HeaderMobile /> -->
 <div class="grid-cols-1 flex flex-col-reverse xl:flex-row lg:grid-cols-3 xl:mx-28">
 	<div class="basis-1/3">
-		<!-- <Sidebar /> -->
+		<Sidebar />
 	</div>
 	<div class="basis-2/3">
 		{#if $navigating}
