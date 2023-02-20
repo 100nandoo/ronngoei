@@ -4,7 +4,7 @@ description: third
 image: /images/demo-image.jpg
 draft: true
 ---
-T﻿hird content, this is **bold** *italic* [link](www.google.com)
+T﻿hird content, this is **bold** *italic*
 
 > b﻿lockquote
 
