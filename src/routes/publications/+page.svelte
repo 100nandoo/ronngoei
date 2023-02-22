@@ -11,7 +11,7 @@
 	<Title>Publications</Title>
 	{#each result as item}
 		<a href={item['url']}>
-			<div class="hover:bg-stone-100 mb-2 card shadow-md p-4 group">
+			<div class="hover:bg-stone-100 mb-2 card card-bordered shadow-md p-4 group">
 				<h2 class="text-lg font-semibold">{item['title']}</h2>
 				{#if item.contributors.length > 0}
 					<hr class="hidden group-hover:block border-2 border-stone-500 my-4" />

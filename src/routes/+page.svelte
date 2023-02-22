@@ -1,5 +1,6 @@
 <script>
 	import Title from '$lib/components/Sidebar/Title.svelte';
+	import Post from '$lib/components/Post.svelte';
 	/** @type {import('./$types').PageServerData} */
 	export let data;
 
@@ -11,8 +12,6 @@
 	<Title>Posts</Title>
 
 	{#each result as post}
-		<a href={post.path}>
-			<p>{post.meta.title}</p>
-		</a>
+		<Post {post} />
 	{/each}
 </div>
