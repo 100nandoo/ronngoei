@@ -13,9 +13,9 @@ slug:
   sanitize_replacement: '-'
 
 collections:
-  - name: posts # used in routes, e.g. /admin/collections/blog
+  - name: posts
     identifier_field: title
-    label: Posts # used in the ui
+    label: Posts
     folder: src/content/posts # path to the folder where the documents are stored
     create: true # allow users to create new documents in this collection
     slug: '{{slug}}' # filename template, e.g. YYYY-MM-DD-title.md
@@ -26,3 +26,12 @@ collections:
       - { label: Draft, name: draft, widget: boolean, default: true }
       - { label: Optional, name: optional, widget: string, required: false }
       - { label: 'Content', name: 'body', widget: 'markdown' }
+  - name: resources
+    label: Resources
+    folder: src/content/resources
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "File", name: "myfile", widget: "file"}
