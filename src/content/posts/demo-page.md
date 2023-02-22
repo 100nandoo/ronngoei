@@ -1,9 +1,9 @@
 ---
 title: This is a Title
-description: This is a description
+description: This is a a short summary to be shown on homepage
 image: /images/demo-image.jpg
 draft: false
-optional: ''
+optional: ""
 ---
 
 # This is a heading
