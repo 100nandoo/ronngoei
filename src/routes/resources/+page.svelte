@@ -5,7 +5,7 @@
 	export let data;
 
 	let { result } = data;
-	console.log(result);
+	// console.log(result);
 </script>
 
 <div class="px-8">

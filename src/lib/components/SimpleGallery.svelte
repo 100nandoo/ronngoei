@@ -42,16 +42,19 @@
 	});
 </script>
 
-<div class="pswp-gallery grid grid-flow-col auto-cols-max gap-2" id={galleryID}>
+<div
+	class="pswp-gallery grid-cols-1 flex flex-col-reverse lg:flex-row lg:grid-cols-3 gap-2"
+	id={galleryID}
+>
 	{#each images as image}
 		<a
-			href={image.largeURL}
-			data-pswp-width={image.width}
-			data-pswp-height={image.height}
+			href={image.meta.image}
+			data-pswp-width={image.meta.width}
+			data-pswp-height={image.meta.height}
 			target="_blank"
 			rel="noreferrer"
 		>
-			<img src={image.thumbnailURL} alt="" />
+			<img src={image.meta.image} alt="" />
 		</a>
 	{/each}
 </div>

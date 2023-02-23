@@ -4,7 +4,7 @@
 	export let data;
 	let { result } = data;
 	let con = result[0].contributors;
-	console.log(con);
+	// console.log(con);
 </script>
 
 <div class="px-8">
