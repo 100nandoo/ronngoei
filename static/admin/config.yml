@@ -35,3 +35,15 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'File', name: 'myfile', widget: 'file' }
+  - name: gallery
+    label: Gallery
+    folder: src/content/gallery
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Width', name: 'width', widget: 'number',  value_type: "int" }
+      - { label: 'Height', name: 'height', widget: 'number',  value_type: "int" }
+
