@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Image from '$lib/components/image.svelte';
 	import Markdown from '$lib/components/markdown.svelte';
+	import Title from '$lib/components/Sidebar/Title.svelte';
 
 	import type { PageData } from './$types';
 
@@ -12,7 +13,7 @@
 </script>
 
 <div class="px-8">
-	<h1>{data.title}</h1>
+	<Title>{data.title}</Title>
 	<h2>{data.description}</h2>
 	{#if data.optional}
 		<h3>{data.optional}</h3>
