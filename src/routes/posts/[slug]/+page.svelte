@@ -13,13 +13,16 @@
 </script>
 
 <div class="px-8">
+	<img src={data.image.src} alt="demo" width={data.image.width} height={data.image.height} />
+
 	<Title>{data.title}</Title>
-	<h2>{data.description}</h2>
+	<p class="font-serif text-sm">{data.description}</p>
+
+	<hr class="border-2 border-stone-300 my-2" />
+
 	{#if data.optional}
 		<h3>{data.optional}</h3>
 	{/if}
-
-	<img src={data.image.src} alt="demo" width={data.image.width} height={data.image.height} />
 
 	<Markdown hast={data.body} {imageOptions} />
 </div>

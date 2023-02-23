@@ -10,7 +10,7 @@
 	</figure>
 	<div class="card-body">
 		<h2 class="card-title">{post.meta.title}</h2>
-		<p>{post.meta.description}</p>
+		<p class="font-serif text-sm">{post.meta.description}</p>
 		<div class="card-actions justify-end">
 			<button class="btn btn-primary"><a href={post.path}>Read More</a></button>
 		</div>
