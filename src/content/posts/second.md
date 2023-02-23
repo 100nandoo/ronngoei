@@ -3,24 +3,6 @@ title: Second
 description: This is a description
 image: /images/second.png
 draft: false
-optional: ''
+optional: ""
 ---
-
-# This is a heading
-
-this is _some_ **text** that may be both **bold _and italic_**.
-
-## And another heading
-
-- this is a list
-- with some
-- items
-  - and some
-  - subitems
-
-1. this is a numbered list
-2. it has numbers
-
-![and this is an image alt](/images/demo-image.jpg)
-
-[this is a link](https://test.com)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum dui faucibus in ornare. Orci dapibus ultrices in iaculis nunc sed augue. Accumsan in nisl nisi scelerisque eu ultrices vitae. Ultrices gravida dictum fusce ut placerat orci nulla. Morbi non arcu risus quis varius quam quisque. Volutpat ac tincidunt vitae semper quis. Placerat duis ultricies lacus sed turpis. Ipsum suspendisse ultrices gravida dictum fusce ut. Vel quam elementum pulvinar etiam non. Ipsum a arcu cursus vitae congue mauris rhoncus. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Integer malesuada nunc vel risus commodo viverra maecenas.
