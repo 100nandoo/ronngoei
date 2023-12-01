@@ -2,6 +2,6 @@
 title: from email
 description: asdf
 image: /images/quino-al-mbqifklvowm-unsplash.jpg
-draft: true
+draft: false
 ---
 c﻿ontent
