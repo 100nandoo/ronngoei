@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: 100nandoo/ronngoei
   branch: main
 
 media_folder: src/images # folder where user uploaded files should go
